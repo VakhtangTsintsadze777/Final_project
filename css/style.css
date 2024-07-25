@@ -1,0 +1,48 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+header {
+    background-color: #012426;
+    margin: auto;
+    height: 96px;
+    padding: 16px 94px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+
+}
+
+.header_nav_a {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #A1C3C9;
+
+}
+
+
+
+.header_nav_ul {
+    margin-top: 16px;
+
+    display: flex;
+    column-gap: 72px;
+    vertical-align: middle;
+}
+
+.buttons {
+    margin-top: 12px;
+}
+
+.button1 {
+    background-color: transparent;
+    display: inline-flex;
+    /* align-items: center; */
+    padding: 4px;
+    border: 0px solid transparent;
+}
+
