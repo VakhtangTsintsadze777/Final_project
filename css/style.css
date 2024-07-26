@@ -3,6 +3,7 @@
 .container {
     width: min(100%, 1440px);
     margin: auto;
+    padding-top: 96px;
 }
     /* header */
 header {
@@ -13,6 +14,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: inherit;
+    height: 96px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
 
 }
 
@@ -71,6 +78,7 @@ header {
     height: 560px;
     background-image: url(../images/Rectangle\ 12.png);
     background-size: cover;
+    background-position: center;
     padding-top: 72px;
     display: flex;
     justify-content: center;
@@ -99,4 +107,28 @@ header {
 .arrow {
     background-color: #C46A2B;
     border: none;
+    border-radius: 4px;
+    width: 36px;
+    height: 24px;
+}
+
+.fa-arrow-right {
+    color: #D9D9D9;
+    width: 17.5px;
+}
+
+.collection {
+    color: #05BCCA;
+}
+
+.section2 {
+    background-color: #1A1A1A;
+    padding: 96px 94px;
+}
+
+.article1 {
+    padding: 8px 8px 16px 8px;
+    display: flex;
+    flex-direction: column;
+    
 }
