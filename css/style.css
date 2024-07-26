@@ -126,9 +126,16 @@ header {
     padding: 96px 94px;
 }
 
+.cards {
+    /* display: inline; */
+    display: flex;
+}
+
 .article1 {
     padding: 8px 8px 16px 8px;
-    display: flex;
+    /* display: inline; */
     flex-direction: column;
     
 }
+
+
