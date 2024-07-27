@@ -1,1 +1,7 @@
 /* 1439px - 769px  */
+
+@media (max-width: 1294px){
+    .cards {
+        overflow-x: scroll;
+    }
+}
