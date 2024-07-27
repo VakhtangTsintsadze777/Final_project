@@ -33,6 +33,9 @@ header {
 
 }
 
+.header_nav_a:hover {
+    text-shadow: 2px 1px 5px #05BCCA, 0 1px 5px #05BCCA, 0 0 5px #05BCCA, 0 0 5px #05BCCA;
+}
 
 
 .header_nav_ul {
@@ -41,6 +44,17 @@ header {
     display: flex;
     column-gap: 72px;
     vertical-align: middle;
+}
+
+.header_guitar:hover {
+    width: calc(128%);
+    animation: guitar .7s linear 0s;
+}
+
+@keyframes guitar {
+    from {
+        transform: rotate(360deg);
+    }
 }
 
 .buttons {
@@ -75,6 +89,23 @@ header {
     border: none;
 }
 
+.button1:hover, .button2:hover, .button3:hover {
+    animation: button_hov 1.6s linear .3s infinite;
+}
+
+@keyframes button_hov {
+    from {
+        opacity: 50%;
+    }
+    50% {
+        opacity: 70%;
+    }
+    to {
+        opacity: 99%;
+    }
+}
+
+
 /* section1 */
 .section1 {
     height: 560px;
@@ -103,34 +134,36 @@ header {
     font-weight: 400;
     line-height: 36px;
     text-align: left;
-
-}
-
-.section2 {
-    background-color: #1A1A1A;
-    padding: 96px 94px;
-}
-
-.most_popular_div {
-    margin-bottom: 64px;
-
-}
-
-.most_popular {
     
-    text-align: center;
-    font-size: 36px;
-    font-family: Inter;
-    font-weight: 700;
-    line-height: 52px;
 
 }
 
-.underline{ 
-    width: 187.27px;
-    /* height: 1px; */
-    border: 2px solid #05BCCA;
-    margin: auto;
+.section1_h2:hover, .collection:hover {
+    animation: colorRotate 2s linear 0s infinite;
+    text-shadow: 0 0 10px #2d38539f, 0 0 20px #2d38539f, 0 0 30px #2d38539f, 0 0 40px #2d3853e2, 0 0 50px #2d38539f, 0 0 60px #2d38539f, 0 0 70px #2d38539f;
+}
+
+@keyframes colorRotate {
+  from {
+    color: #0805b8;
+  }
+  10% {
+    color: #1892c2;
+  }
+  50% {
+    color: #0a6c03;
+  }
+  75% {
+    color: #ff3333;
+  }
+  100% {
+    color: #2f2ff6;
+  }
+}
+
+
+.collection {
+    color: #05BCCA;
 }
 
 .arrow {
@@ -141,19 +174,67 @@ header {
     height: 24px;
 }
 
+.arrow:hover {
+    animation: buttonHover 1s linear 0s infinite;
+    
+}
+
+@keyframes buttonHover {
+    from {
+        
+        background-color: #c46b2bc2;
+    }
+    to {
+        background-color: #c46b2b94;
+    }
+}
+
 .fa-arrow-right {
     color: #D9D9D9;
     width: 17.5px;
 }
-
-.collection {
-    color: #05BCCA;
+      /* section2 */
+.section2 {
+    background-color: #1A1A1A;
+    padding: 96px 94px;
 }
+
+.most_popular_div {
+    margin-bottom: 64px;
+}
+
+
+.most_popular {
+    
+    text-align: center;
+    font-size: 36px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 52px;
+    color: #05BCCA;
+
+}
+
+.most_popular:hover {
+    text-shadow: 0 0 10px #0B8A93, 0 0 20px #0B8A93, 0 0 30px #0B8A93, 0 0 40px #0B8A93;
+}
+
+.underline{ 
+    width: 187.27px;
+    /* height: 1px; */
+    border: 2px solid #05BCCA;
+    margin: auto;
+}
+
+
+
+
 
 
 
 .cards {
     display: flex;
+    column-gap: 20px;
 }
 
 .article1 {
@@ -162,6 +243,78 @@ header {
     flex-direction: column;
     justify-content: space-between;
     height: 400px;
+    background-color: #2C4246;
+    border: 1px solid #05BCCA;
+
+}
+
+.article1:hover {
+    box-shadow: 0 0 10px #0B8A93, 0 0 20px #0B8A93, 0 0 30px #0B8A93, 0 0 40px #0B8A93, 0 0 50px #0B8A93, 0 0 60px #0B8A93, 0 0 70px #0B8A93;
+
+    overflow: hidden;
+    transform: scale(110%);
+    border-radius: 20px;
+    cursor: zoom-in;
+    background-color: #385358;
+}
+
+.article1:hover .guitar1 {
+    border-radius: 20px;
+}
+
+.article1:hover .article_h2 {
+    font-size: calc(150%);
+}
+
+.article1:hover .fa-star {
+    font-size: calc(110%);
+}
+
+.article1:hover .p950 {
+    font-size: calc(140%);
+}
+
+.description_div {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.article_h2 {
+    color: #D9D9D9;
+}
+
+.stars_price {
+    display: flex;
+    justify-content: space-between;
+    width: 282px;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 4px;
+}
+
+.fa-star {
+    color: #C46A2B;
+    font-size: 11.41px;
+}
+
+.price_div {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 4px;
 }
 
 
+.fa-dollar-sign {
+    color: #05BCCA;   
+}
+
+.p950 {
+    font-size: 16px;
+    color: #05BCCA;
+}
