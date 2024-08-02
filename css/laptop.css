@@ -5,3 +5,19 @@
         overflow-x: scroll;
     }
 }
+
+@media (max-width: 1025px) {
+    footer {
+        padding: 48px 98px;
+    }
+    header {
+        padding: 16px 45px;
+    }
+    .header_nav {
+        display: none;
+    }
+        .fa-bars {
+            display: flex;
+        }
+}
+
