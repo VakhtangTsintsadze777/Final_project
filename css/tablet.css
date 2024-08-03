@@ -1,1 +1,16 @@
 /* 768px - 481px */
+@media (max-width: 744px){
+    header {
+        padding: 16px 32px;
+    }
+    .section1 {
+        height: 480px;
+        padding-top: 32px;
+    }
+    .section2 {
+        padding: 48px 32px;
+    }
+    footer {
+        padding: 48px 32px;
+    }
+}

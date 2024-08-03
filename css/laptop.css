@@ -14,10 +14,27 @@
         padding: 16px 45px;
     }
     .header_nav {
-        display: none;
+        position: fixed;
+        top: 96px;
+        left: -100%;
+        background-color: #C46A2B;
+        width: 200px;
+        height: 144px;
+        padding: 16px 56px 16px 16px;
+        transition: 1s ease-in;
     }
-        .fa-bars {
-            display: flex;
-        }
+    .header_nav_ul {
+        flex-direction: column;
+        row-gap: 8px;
+    }
+    .fa-bars {
+        display: flex;
+    }
+    .show {
+        left: 0;
+    }
+    .section2 {
+        padding: 96px 45px;
+    }
 }
 
