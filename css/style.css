@@ -331,7 +331,6 @@ header {
     border-radius: 20px;
     cursor: zoom-in;
     background-color: #385358; 
-    position: relative;
 }
 
 .article1:hover .guitar1 {
@@ -348,10 +347,6 @@ header {
 
 .article1:hover .p950 {
     font-size: calc(140%);
-}
-
-.article1:hover header {
-    position: absolute;
 }
 
 .description_div {
@@ -500,6 +495,11 @@ footer {
 }
 
 .p_Footer_white {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
     color: #FFFFFF;
 }
 
@@ -580,7 +580,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     row-gap: 64px;
-
 }
 
 /* article1 */
@@ -664,11 +663,32 @@ footer {
     border: 2px groove grey;
 }
 
+.responsive480_button {
+    border-radius: 4px;
+    background-color: #A1C3C9;
+
+    display: flex;
+    align-items: center;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+    color: #2C4246;
+
+    border: none;
+    display: none;
+}
+
 /* cataglog 12 articles */
 
 .catalog_section1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
     column-gap: 20px;
     row-gap: 40px;
     flex-wrap: wrap;
@@ -706,6 +726,7 @@ footer {
 
 .catalog_description_div {
     height: 100%;
+    width: 298px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -736,7 +757,7 @@ footer {
 
 .catalog_section2_pages {
     display: flex;
-    width: 394px;
+    column-gap: 45px;
     justify-content: space-between;
     align-items: center;
 }
@@ -757,6 +778,23 @@ footer {
     color: #D9D9D9;
 
 
+}
+
+.catalog_responsive744_button1 {
+    display: none;
+    width: 52px;
+    background-color: #C46A2B;
+    border: none;
+    border-radius: 8px;
+    
+    align-items: center;
+    padding: 8px;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #D9D9D9;
 }
 
 .catalog_previous_button:hover {
@@ -788,7 +826,7 @@ footer {
     display: flex;
     align-items: center;
     padding: 8px;
-    justify-content: space-between;
+    justify-content: center;
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -801,6 +839,21 @@ footer {
     opacity: .8;
     filter: brightness(120%);
     cursor: pointer;
+}
+.catalog_responsive744_button2 {
+    display: none;
+    width: 52px;
+    background-color: #05BCCA;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+    padding: 8px;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #D9D9D9;
 }
 
 

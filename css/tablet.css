@@ -3,6 +3,13 @@
     header {
         padding: 16px 32px;
     }
+    .buttons {
+        column-gap: 16px;
+    }
+    .header_guitar {
+        width: 40px;
+        height: 40px;
+    }
     .section1 {
         height: 480px;
         padding-top: 32px;
@@ -11,6 +18,36 @@
         padding: 48px 32px;
     }
     footer {
+        height: 628px;
+        padding: 32px 154px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        row-gap: 40px;
+    }
+    .brands_h3_div, .underline_footer, .contact_h3_div, .p_Footer_white {
+        margin: auto;
+    }
+    .p_Footer {
+        text-align: center;
+    }
+    .social_icons {
+        display: flex;
+        justify-content: center;
+        column-gap: 16px;
+    }
+
+    /* Page 2 - Catalog.html */
+    .catalog_main {
         padding: 48px 32px;
+    }
+    .catalog_12_articles, .catalog_guitaras, .catalog_description_div {
+        width: 330px;
+    }
+    .catalog_responsive744_button1, .catalog_responsive744_button2 {
+        display: flex;
+    }
+    .catalog_previous_button, .catalog_next_button {
+        display: none;
     }
 }

@@ -1,12 +1,39 @@
 /* 1439px - 769px  */
 
 @media (max-width: 1373px){
+
+    /* Page 1 - index.html */
     .cards {
         overflow-x: scroll;
     }
+    .article1:hover {
+        box-shadow: none;
+        transform: none;
+        border-radius: 20px;
+        cursor: zoom-in;
+        background-color: #385358; 
+    }
+    
+    .article1:hover .guitar1 {
+        border-radius: 20px;
+    }
+    
+    .article1:hover .article_h2 {
+        font-size: calc(150%);
+    }
+    
+    .article1:hover .fa-star {
+        font-size: calc(110%);
+    }
+    
+    .article1:hover .p950 {
+        font-size: calc(140%);
+    }
+    /* page 1 end- */
 }
 
 @media (max-width: 1025px) {
+    /* Page 1 - index.html */
     footer {
         padding: 48px 98px;
     }
@@ -35,6 +62,31 @@
     }
     .section2 {
         padding: 96px 45px;
+    }
+    /* Page 2 - catalog.html */
+    .catalog_main {
+        padding: 96px 45px;
+    }
+    .catalog_12_articles {
+        width: 457px;
+    }
+
+    .catalog_guitaras {
+        width: 457px;
+        height: 298px;
+    }
+    .catalog_description_div {
+        width: 100%;
+
+    }
+    .catalog_12_articles:hover {
+        transform: none;
+        border-radius: 0;
+    }
+    .catalog_12_articles:hover .catalog_guitaras {
+        display: flex;
+        transform: scale(90%);
+        border-radius: 0;
     }
 }
 

@@ -1,1 +1,36 @@
 /* 480px - 320px */
+@media (max-width: 480px) {
+    header, .catalog_header, .contact_header {
+        padding: 28px 20px;
+    }
+    .section1_h2, .collection {
+        font-size: 24px;
+    }
+    .most_popular {
+        font-size: 24px;
+    }
+    .filter {
+        display: none;
+    }
+
+    /* Page 2 - catalog.html */
+     .catalog_main {
+        padding: 32px 20px;
+     }
+     .bestSelling {
+        display: none;
+     }
+     .responsive480_button {
+        display: flex;
+     }
+     .catalog_12_articles, .catalog_guitaras, .catalog_description_div {
+        width: 304px;
+    }
+}
+
+@media (max-width: 393px) {
+    .catalog_main {
+        padding: 32px 8px;
+    }
+    
+}
