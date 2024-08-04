@@ -3,6 +3,9 @@
     header, .catalog_header, .contact_header {
         padding: 28px 20px;
     }
+    .section1 {
+        height: 320px;
+    }
     .section1_h2, .collection {
         font-size: 24px;
     }
@@ -29,8 +32,13 @@
 }
 
 @media (max-width: 393px) {
-    .catalog_main {
+    .catalog_main, .contact_main {
         padding: 32px 8px;
     }
-    
+    /* Page 3 - contact.html */
+    .contact_article {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
 }

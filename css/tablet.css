@@ -50,4 +50,64 @@
     .catalog_previous_button, .catalog_next_button {
         display: none;
     }
+    /* Page 3 - contact.html */
+    .contact_main {
+        align-items: start;
+        padding: 32px 20px;
+        height: 767px;
+    }
+    .contact_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 33px;
+    }
+    .contact_aside {
+        display: flex;
+        row-gap: 33px;
+    }
+    .contact_article {
+
+        justify-content: center;
+        column-gap: 24px;
+        height: 56px;
+        padding: 16px;
+    }
+    .contact_mobile_email {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 24px;
+    }
+    .contact_email, .contact_number {
+        display: none;
+    }
+    .gis_location-poi {
+        width: 24px;
+        height: 24px;
+    }
+    .contact_figure {
+        flex-direction: column;
+        row-gap: 40px;
+
+    }
+    .contact_form {
+        display: flex;
+    }
+    .inputs {
+        display: flex;
+        column-gap: 8px;
+    }
+    .contact_input {
+        display: flex;
+        width: 100%;
+    }
+    .contact_iframe {
+        width: 100%;
+    }
+    .contact_social_icons {
+        justify-content: center;
+        align-items: start;
+        column-gap: 16px;
+    }
 }

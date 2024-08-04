@@ -275,7 +275,7 @@ header {
       /* section2 */
 .section2 {
     background-color: #1A1A1A;
-    padding: 96px 94px;
+    padding: 96px 94px; 
 }
 
 .most_popular_div {
@@ -891,6 +891,7 @@ footer {
 .contact_main {
     height: 720px;
     background-image: url(../images/Rectangle\ 7\ \(1\).png);
+    background-attachment: local;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -1006,16 +1007,21 @@ footer {
 .contact_figure {
     display: flex;
     justify-content: space-between;
+    column-gap: 40px;
 }
 
 
 
 .contact_form {
-    max-width: 290px;
     display: flex;
     flex-direction: column;
     column-gap: 8px;
     row-gap: 16px;
+}
+
+.contact_inputs {
+    display: flex;
+    justify-content: space-between;
 }
 
 .contact_input {

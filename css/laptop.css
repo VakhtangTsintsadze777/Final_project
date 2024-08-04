@@ -88,5 +88,10 @@
         transform: scale(90%);
         border-radius: 0;
     }
+
+    /* Page 3 - contact.html */
+    .contact_main {
+        padding: 106px 45px;
+    }
 }
 
