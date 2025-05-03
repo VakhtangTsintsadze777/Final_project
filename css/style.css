@@ -1019,6 +1019,8 @@ footer {
     row-gap: 16px;
 }
 
+
+
 .contact_inputs {
     display: flex;
     justify-content: space-between;
@@ -1031,11 +1033,7 @@ footer {
     background-color: #2C4246;
     display: inline;
     padding-left: 8px;
-
-    
-
 }
-
 .contact_input::placeholder {
     font-family: Inter;
     font-size: 12px;
